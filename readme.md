@@ -1,21 +1,5 @@
 ## Simple projet to run VRising Server on linux
 
-### Simple setup
-
-This script will create a user named steam with a home set to /home/steam 
-You'll have to adapt your script if you already have a user with this name
-
-To run as root / sudo 
-* Run installdeps.sh
-
-To as non elevated user 
-* Run downloadvrserver.sh (will login as anon to steamcmd and dl vrising server)
-* Run startvrising.sh (as a tmux detached session or in background)
-
-
-
-### Dep list 
-
 ## Simple projet to run VRising Server on linux
 
 ### Simple setup
@@ -35,10 +19,12 @@ Clone this repository :
 git clone https://github.com/gillesdubois/vrising-linux-dedicated-server
 ```
 
-To run as root / sudo 
+To run as *root / sudo* :
 * Run installdeps.sh
 
-To run as a non elevated user 
+_Note : Accept EULA during steamcmd installation_
+
+To run as *a non elevated user* :
 * Run downloadvrserver.sh (will login as anon to steamcmd and dl vrising server)
 * Run startvrising.sh (as a tmux detached session or in background)
 
@@ -67,8 +53,6 @@ _Note : Output from my working server on ubuntu focal_
 ### Additonal informations
 
 For info such as configuring the VRisingServer, please check : https://github.com/StunlockStudios/vrising-dedicated-server-instructions
-
-_Note : Output from my working server on ubuntu focal_
 
 ### Additonal informations
 
