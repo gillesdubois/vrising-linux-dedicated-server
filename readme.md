@@ -53,7 +53,3 @@ _Note : Output from my working server on ubuntu focal_
 ### Additonal informations
 
 For info such as configuring the VRisingServer, please check : https://github.com/StunlockStudios/vrising-dedicated-server-instructions
-
-### Additonal informations
-
-For info such as configuring the VRisingServer, please check : https://github.com/StunlockStudios/vrising-dedicated-server-instructions
