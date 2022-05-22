@@ -9,8 +9,5 @@ apt -y update &&  apt -y upgrade
 ## Install required deps for wine / vrising server 
 apt install -y winbind wine-development wine32 wine64-development wine64-tools wine64 wine winetricks xvfb
 
-## Use wintricks to install dotnet and mono
-winetricks --force -q dotnet472
-
 ## Install steam cmd
 apt install steamcmd
