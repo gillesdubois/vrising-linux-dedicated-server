@@ -23,14 +23,24 @@ To as non elevated user
 This script will create a user named steam with a home set to /home/steam 
 You'll have to adapt your script if you already have a user with this name
 
+Create a non elevated user for the next scripts :
+```
+useradd -m -d /home/vrisingsrv -s /usr/bin/bash vrisingsrv 
+cd /home/vrisingsrv 
+su vrisingsrv
+```
+
+Clone this repository : 
+```
+git clone https://github.com/gillesdubois/vrising-linux-dedicated-server
+```
+
 To run as root / sudo 
 * Run installdeps.sh
 
-To as non elevated user 
+To run as a non elevated user 
 * Run downloadvrserver.sh (will login as anon to steamcmd and dl vrising server)
 * Run startvrising.sh (as a tmux detached session or in background)
-
-
 
 ### Dep list 
 
